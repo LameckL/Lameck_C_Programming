@@ -13,5 +13,6 @@ int main(void)
 
         printf("Value of a is: %d\n", a);
         printf("%d, %d, %d\n", a, *b, **c);
+	printf("%p, %p\n", &b, c);
         return (0);
 }
